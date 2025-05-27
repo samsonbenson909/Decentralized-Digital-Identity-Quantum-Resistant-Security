@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.key-rotation-protocol]
+path = 'contracts/key-rotation-protocol.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.quantum-resistant-cryptography]
 path = 'contracts/quantum-resistant-cryptography.clar'
 clarity_version = 2
